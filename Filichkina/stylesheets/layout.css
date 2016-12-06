@@ -1,0 +1,28 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  min-width: 768px;
+  font-family: 'PT Sans', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body.landing {
+  background-color: ;
+}
+
+body.landing .menubar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-width: 768px;
+  z-index: 1;
+}
+
+body.landing .menubar div {
+  background-color: white;
+  box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.1);
+}

@@ -1,0 +1,18 @@
+.menubar {
+  width: 100%;
+}
+
+.menubar div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  padding: 14px;
+}
+
+.logo {
+  display: block;
+  width: 54px;
+  height: 16px;
+  background-image: url(../images/logo.svg);
+}
