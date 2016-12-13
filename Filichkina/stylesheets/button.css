@@ -1,7 +1,5 @@
 .btn {
   display: block;
-  /*border-style: solid;*/
-  text-align: center;
 }
 
 .large {
@@ -18,5 +16,21 @@
 }
 
 .small {
+  font-family: 'PT Sans Caption', sans-serif;
+  font-size: 14px;
   color: white;
+}
+
+@media screen and (max-width: 1180px) {
+  .small {
+    line-height: 30px;
+    font-size: 12px;
+  }
+
+  .large {
+    width: 214px;
+    height: 36px;
+    line-height: 36px;
+    font-size: 12px;
+  }
 }

@@ -16,3 +16,14 @@
   height: 27px;
   background-image: url(../images/logo.svg);
 }
+
+@media screen and (max-width: 1179px) {
+  .menubar div {
+    height: 44px;
+  }
+
+  .logo {
+    width: 59px;
+    height: 17px;
+  }
+}
