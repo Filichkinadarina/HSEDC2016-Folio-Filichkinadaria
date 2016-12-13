@@ -12,15 +12,12 @@ body.landing * {
   transition: all .3s ease;
 }
 
-body {
+body.landing {
   min-width: 768px;
   font-family: 'PT Sans', sans-serif;
+  background-color: #FAFAFA;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-}
-
-body.landing {
-  background-color: #FAFAFA;
 }
 
 body.landing .menubar {
@@ -55,7 +52,7 @@ body.landing .menubar div {
   margin: 0 auto;
   width: 1440px;
   box-shadow: 0px 2px 10px 0px rgba(0,0,0,0.1);
-  /*background-color: white;*/
+  background-color: white;
 }
 
 .mainSection {
@@ -81,11 +78,11 @@ body.landing .menubar div {
 
 .mainSection.center {
   text-align: center;
-  /*background-color: #879696;*/
+  background-color: #879696;
 }
 
 .mainSection.right {
-  /*background-color: #879696;*/
+  background-color: #879696;
 }
 
 .mainSection.center section {
@@ -124,20 +121,12 @@ body.landing .menubar div {
   margin-left: 0;
 }
 
-.mockup {
-  position: absolute;
-  background-size: cover;
-}
-
 .mainSection.center nav {
-  display: block;
-  margin-top: 60px;
-  margin-left: 570px;
+  margin: 60px 0 0 570px;
 }
 
 .small {
-  margin-top: 16px;
-  margin-left: -570px;
+  margin: 16px 0 0 -570px;
 }
 
 .mainSection.center footer {
@@ -153,6 +142,26 @@ body.landing .menubar div {
   color: white;
 }
 
+.mockup {
+  position: absolute;
+  background-size: cover;
+}
+
+.mainSection.right div {
+  width: 490px;
+  margin: 193px 0 0 158px;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.mock {
+  position: static;
+  box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.1);
+  background-size: cover;
+}
+
 #mockup1 {
   width: 532px;
   height: 1204px;
@@ -165,27 +174,18 @@ body.landing .menubar div {
 #mockup2_1 {
   width: 140px;
   height: 317px;
-  top: 193px;
-  left: 152px;
-  box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.1);
   background-image: url(../images/landing/picture1and2.png);
 }
 
 #mockup2_2 {
   width: 140px;
   height: 395px;
-  top: 193px;
-  left: 325px;
-  box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.1);
   background-image: url(../images/landing/picture2_2.png);
 }
 
 #mockup2_3 {
   width: 140px;
   height: 475px;
-  top: 193px;
-  left: 498px;
-  box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.1);
   background-image: url(../images/landing/picture2_3.png);
 }
 
@@ -256,13 +256,11 @@ body.landing .menubar div {
   }
 
   .mainSection.center nav {
-    margin-top: 42px;
-    margin-left: 483px;
+    margin: 42px 0 0 483px;
   }
 
   .small {
-    margin-top: 4px;
-    margin-left: -483px;
+    margin: 4px 0 0 -483px;
   }
 
   .mainSection.center footer {
@@ -272,6 +270,11 @@ body.landing .menubar div {
 
   .mainSection.center footer p {
     font-size: 13px;
+  }
+
+  .mainSection.right div {
+    margin: 138px 0 0 190px;
+    width: 350px;
   }
 
   #mockup1 {
@@ -284,37 +287,24 @@ body.landing .menubar div {
   #mockup2_1 {
     width: 102px;
     height: 231px;
-    top: 138px;
-    left: 194px;
   }
 
   #mockup2_2 {
     width: 102px;
     height: 288px;
-    top: 138px;
-    left: 316px;
   }
 
   #mockup2_3 {
     width: 102px;
     height: 346px;
-    top: 138px;
-    left: 438px;
   }
 
   #mockup3 {
-    width: 762px;
-    height: 404px;
-    top: 343px;
-    right: 45px;
+    width: 540px;
+    height: 287px;
+    top: 243px;
+    right: 106px;
   }
-
-  #mockup3 {
-width: 540px;
-height: 287px;
-top: 243px;
-right: 106px;
-}
 
 @media screen and (max-width: 839px) {
   body.landing.bg {
@@ -344,13 +334,16 @@ right: 106px;
   }
 
   .mainSection.center nav {
-    margin-top: 92px;
-    margin-left: 313px;
+    margin: 92px 0 0 313px;
   }
 
   .small {
-    margin-top: 4px;
-    margin-left: -313px;
+    margin: 4px 0 0 -313px;
+  }
+
+  .mainSection.right div {
+    margin: 456px 0 0 175px;
+    width: 490px;
   }
 
   #mockup1 {
@@ -363,22 +356,16 @@ right: 106px;
   #mockup2_1 {
     width: 140px;
     height: 317px;
-    top: 456px;
-    left: 175px;
   }
 
   #mockup2_2 {
     width: 140px;
     height: 395px;
-    top: 456px;
-    left: 348px;
   }
 
   #mockup2_3 {
     width: 140px;
     height: 474px;
-    top: 456px;
-    left: 521px;
   }
 
   #mockup3 {
@@ -387,4 +374,12 @@ right: 106px;
     top: 505px;
     right: -81px;
   }
+}
+
+@media screen and (-webkit-min-device-pixel-ratio: 2) {
+  #mockup1 { background-image: url(../images/landing/picture1and2-@2x.png); }
+  #mockup2_1 { background-image: url(../images/landing/picture1and2-@2x.png); }
+  #mockup2_2 { background-image: url(../images/landing/picture2_2-@2x.png); }
+  #mockup2_3 { background-image: url(../images/landing/picture2_3-@2x.png); }
+  #mockup3 { background-image: url(../images/landing/picture3-@2x.png); }
 }
