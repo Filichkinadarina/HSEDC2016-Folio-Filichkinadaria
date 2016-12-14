@@ -1,11 +1,7 @@
-body.landing.bg {
-  background-image: url(../images/1440.png);
-  background-repeat: no-repeat;
-  background-position: top center;
-}
-
 * {
   box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 body.landing * {
@@ -17,8 +13,12 @@ body.landing {
   min-width: 768px;
   font-family: 'PT Sans', sans-serif;
   background-color: #FAFAFA;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+}
+
+body.landing.bg {
+  background-image: url(../images/1440.png);
+  background-repeat: no-repeat;
+  background-position: top center;
 }
 
 body.landing .menubar {
