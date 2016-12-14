@@ -1,0 +1,29 @@
+.menubar {
+  width: 100%;
+}
+
+.menubar div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+  padding: 14px;
+}
+
+.logo {
+  display: block;
+  width: 88px;
+  height: 27px;
+  background-image: url(../images/logo.svg);
+}
+
+@media screen and (max-width: 1179px) {
+  .menubar div {
+    height: 44px;
+  }
+
+  .logo {
+    width: 59px;
+    height: 17px;
+  }
+}

@@ -1,0 +1,385 @@
+body.landing.bg {
+  background-image: url(../images/1440.png);
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body.landing * {
+  transition: all .3s ease;
+}
+
+body.landing {
+  min-width: 768px;
+  font-family: 'PT Sans', sans-serif;
+  background-color: #FAFAFA;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body.landing .menubar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-width: 768px;
+  z-index: 1;
+}
+
+body.landing .menubar div {
+  background-color: white;
+  box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.1);
+}
+
+body.landing .menubar div {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.compact {
+  display: none;
+}
+
+.landingWrapper {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden;
+  margin: 0 auto;
+  width: 1440px;
+  box-shadow: 0px 2px 10px 0px rgba(0,0,0,0.1);
+  background-color: white;
+}
+
+.mainSection {
+  width: 1440px;
+  position: relative;
+  height: 800px;
+  overflow: hidden;
+}
+
+.mainSection h2 {
+  font-family: 'PT Sans Caption', sans-serif;
+  font-weight: bold;
+  font-size: 44px;
+  line-height: 56px;
+}
+
+.mainSection p {
+  font-family: 'PT Sans', sans-serif;
+  font-size: 21px;
+  line-height: 36px;
+  margin-top: 30px;
+}
+
+.mainSection.center {
+  text-align: center;
+  background-color: #879696;
+}
+
+.mainSection.right {
+  background-color: #879696;
+}
+
+.mainSection.center section {
+  top: 190px;
+  width: 100%;
+  color: white;
+}
+
+.mainSection section {
+  position: absolute;
+  top: 190px;
+  width: 580px;
+}
+
+.mainSection.left section {
+  left: 160px;
+}
+
+.mainSection.right section {
+  right: 60px;
+  color: white;
+}
+
+.mainSection section figure {
+  margin: 55px 0 0 -60px;
+  width: 30px;
+  height: 4px;
+  background-color: #50e3c2;
+}
+
+.mainSection.left section figure {
+  margin-left: 0;
+}
+
+.mainSection.right section figure {
+  margin-left: 0;
+}
+
+.mainSection.center nav {
+  margin: 60px 0 0 570px;
+}
+
+.small {
+  margin: 16px 0 0 -570px;
+}
+
+.mainSection.center footer {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  padding-bottom: 35px;
+}
+
+.mainSection.center footer p {
+  font-size: 16px;
+  color: white;
+}
+
+.mockup {
+  position: absolute;
+  background-size: cover;
+}
+
+.mainSection.right div {
+  width: 490px;
+  margin: 193px 0 0 158px;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.mock {
+  position: static;
+  box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.1);
+  background-size: cover;
+}
+
+#mockup1 {
+  width: 532px;
+  height: 1204px;
+  top: 233px;
+  right: 165px;
+  box-shadow: 0px 2px 10px 0px rgba(0,0,0,0.1);
+  background-image: url(../images/landing/picture1and2.png);
+}
+
+#mockup2_1 {
+  width: 140px;
+  height: 317px;
+  background-image: url(../images/landing/picture1and2.png);
+}
+
+#mockup2_2 {
+  width: 140px;
+  height: 395px;
+  background-image: url(../images/landing/picture2_2.png);
+}
+
+#mockup2_3 {
+  width: 140px;
+  height: 475px;
+  background-image: url(../images/landing/picture2_3.png);
+}
+
+#mockup3 {
+  width: 762px;
+  height: 404px;
+  top: 343px;
+  right: 45px;
+  background-image: url(../images/landing/picture3.png);
+}
+
+@media screen and (max-width: 1440px) {
+  .landingWrapper {
+    width: 100%
+  }
+}
+
+@media screen and (max-width: 1179px) {
+  body.landing.bg {
+    background-image: url(../images/1024.png);
+  }
+
+  .mainSection {
+    width: 1179px;
+    height: 568px;
+  }
+
+  .full {
+    display: none;
+  }
+
+  .compact {
+    display: block;
+  }
+
+  .mainSection h2 {
+    font-size: 30px;
+    line-height: 39px;
+  }
+
+  .mainSection p {
+    margin-top: 18px;
+    font-size: 16px;
+    line-height: 26px;
+  }
+
+  .mainSection section {
+    top: 137px;
+    width: 410px;
+  }
+
+  .mainSection.left section {
+    left: 190px;
+  }
+
+  .mainSection.right section {
+    right: 125px;
+  }
+
+  .mainSection.center section {
+    top: 137px;
+  }
+
+  .mainSection section figure {
+    margin-top: 42px;
+    width: 22px;
+    height: 3px;
+  }
+
+  .mainSection.center nav {
+    margin: 42px 0 0 483px;
+  }
+
+  .small {
+    margin: 4px 0 0 -483px;
+  }
+
+  .mainSection.center footer {
+    bottom: -10px;
+    padding-bottom: 35px;
+  }
+
+  .mainSection.center footer p {
+    font-size: 13px;
+  }
+
+  .mainSection.right div {
+    margin: 138px 0 0 190px;
+    width: 350px;
+  }
+
+  #mockup1 {
+    width: 376px;
+    height: 851px;
+    top: 166px;
+    right: 192px;
+  }
+
+  #mockup2_1 {
+    width: 102px;
+    height: 231px;
+  }
+
+  #mockup2_2 {
+    width: 102px;
+    height: 288px;
+  }
+
+  #mockup2_3 {
+    width: 102px;
+    height: 346px;
+  }
+
+  #mockup3 {
+    width: 540px;
+    height: 287px;
+    top: 243px;
+    right: 106px;
+  }
+
+@media screen and (max-width: 839px) {
+  body.landing.bg {
+    background-image: url(../images/768.png);
+  }
+
+  .mainSection {
+    width: 839px;
+    height: 1024px;
+  }
+
+  .mainSection section {
+    top: 137px;
+    width: 410px;
+  }
+
+  .mainSection.left section {
+    left: 150px;
+  }
+
+  .mainSection.right section {
+    right: 80px;
+  }
+
+  .mainSection.center section {
+    top: 187px;
+  }
+
+  .mainSection.center nav {
+    margin: 92px 0 0 313px;
+  }
+
+  .small {
+    margin: 4px 0 0 -313px;
+  }
+
+  .mainSection.right div {
+    margin: 456px 0 0 175px;
+    width: 490px;
+  }
+
+  #mockup1 {
+    width: 543px;
+    height: 1229px;
+    top: 482px;
+    right: 145px;
+  }
+
+  #mockup2_1 {
+    width: 140px;
+    height: 317px;
+  }
+
+  #mockup2_2 {
+    width: 140px;
+    height: 395px;
+  }
+
+  #mockup2_3 {
+    width: 140px;
+    height: 474px;
+  }
+
+  #mockup3 {
+    width: 762px;
+    height: 404px;
+    top: 505px;
+    right: -81px;
+  }
+}
+
+@media screen and (-webkit-min-device-pixel-ratio: 2) {
+  #mockup1 { background-image: url(../images/landing/picture1and2-@2x.png); }
+  #mockup2_1 { background-image: url(../images/landing/picture1and2-@2x.png); }
+  #mockup2_2 { background-image: url(../images/landing/picture2_2-@2x.png); }
+  #mockup2_3 { background-image: url(../images/landing/picture2_3-@2x.png); }
+  #mockup3 { background-image: url(../images/landing/picture3-@2x.png); }
+}
