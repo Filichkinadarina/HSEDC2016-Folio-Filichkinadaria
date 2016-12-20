@@ -130,12 +130,7 @@ body.landing .menubar div {
 }
 
 .mainSection.center nav {
-  height: 82px;
-  margin-top: 60px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-between;
+  margin-top: 55px;
 }
 
 .mainSection.center footer {
@@ -271,7 +266,6 @@ body.landing .menubar div {
   }
 
   .mainSection.center nav {
-    height: 70px;
     margin-top: 40px;
   }
 
@@ -347,7 +341,6 @@ body.landing .menubar div {
   }
 
   .mainSection.center nav {
-    height: 70px;
     margin-top: 90px;
   }
 
